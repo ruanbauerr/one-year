@@ -35,7 +35,7 @@ export default function GallerySection() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.sectionTitle}>Nossa galeria</Text>
+      <Text style={styles.sectionTitle}>Enfim, foram varios momentos incriveis com você, e aqui mais alguns deles</Text>
 
       <View
         style={styles.grid}
@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
     fontSize: 22,
     textAlign: 'center',
     marginBottom: spacing.sm,
+    color: colors.white,
   },
   grid: {
     flexDirection: 'row',

@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     ...typography.body,
     fontSize: 17,
     fontStyle: 'italic',
-    color: colors.textDark,
+    color: colors.white,
     textAlign: 'center',
   },
 });
