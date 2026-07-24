@@ -22,8 +22,10 @@ const BUTTON_HEIGHT = 48;
  *
  * Props:
  * - label: texto do botão (ex: "Não")
+ * - style: estilos extras/overrides pro container "playArea" (ex: usar
+ *   flex: 1 pra encaixar numa linha ao lado do botão "Sim")
  */
-export default function DodgeButton({ label = 'Não' }) {
+export default function DodgeButton({ label = 'Não', style }) {
   // Guarda o tamanho do container onde o botão pode se mover
   const containerSize = useRef({ width: 0, height: 0 });
 
@@ -47,7 +49,7 @@ export default function DodgeButton({ label = 'Não' }) {
   return (
     // playArea é a "arena" onde o botão pode se mover livremente.
     <View
-      style={styles.playArea}
+      style={[styles.playArea, style]}
       onLayout={(event) => {
         const { width, height } = event.nativeEvent.layout;
         containerSize.current = { width, height };
