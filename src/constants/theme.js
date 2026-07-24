@@ -4,6 +4,7 @@ export const colors = {
   primary: '#F4B6C2',      // rosa suave
   secondary: '#D8C2F0',    // lilás suave
   accent: '#F49AC2',       // rosa mais vivo (destaques, botões)
+  romantic: '#F2679E',     // rosa bem vivo, usado no fundo da tela principal
   textDark: '#5A4B57',
   textLight: '#8A7A85',
   white: '#FFFFFF',

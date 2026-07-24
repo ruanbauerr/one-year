@@ -21,7 +21,7 @@ export default function GallerySection() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.sectionTitle}>Nossa galeria</Text>
+      <Text style={styles.sectionTitle}>Enfim, foram inumeras datas que nem consigo lembrar todas, mas aqui mais alguns dos nossos momentos</Text>
 
       <View style={styles.grid}>
         <View style={styles.column}>

@@ -11,7 +11,7 @@ import { typography, spacing } from '../constants/theme';
 export default function TimelineSection() {
   return (
     <View style={styles.container}>
-      <Text style={styles.sectionTitle}>Nossa história</Text>
+      <Text style={styles.sectionTitle}></Text>
 
       {timelineData.map((item) => (
         <TimelineItem key={item.id} item={item} />

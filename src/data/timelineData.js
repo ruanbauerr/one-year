@@ -12,35 +12,34 @@ export const timelineData = [
   {
     id: 'sempre',
     date: null, // sem data exata — é sobre "desde sempre"
-    title: 'Desde sempre',
+    title: '',
     description:
       'A gente se conhece há tanto tempo que nem lembro de um "antes de você". ' +
-      'Foram uns 4 anos de conversa, de quase, de "ainda não é a hora" — até que, ' +
-      'aos poucos, sem data marcada, a gente foi se permitindo.',
+      'Foram alguns anos de conversa, de quase, até que, ' +
+      'aos poucos, a gente foi se unindo.',
     image: null,
   },
   {
     id: 'eu-te-amo',
     date: '27 de junho',
-    title: 'A primeira vez que eu disse',
+    title: 'A primeira vez que eu disse que te amo 💖',
     description:
-      '27 de junho. O dia que eu finalmente disse em voz alta o que já sentia.',
+      '27 de junho.',
     image: require('../assets/photos/27-06-primeiro-eu-te-amo.jpeg'),
   },
   {
     id: 'nosso-dia',
     date: '25 de julho de 2025',
-    title: 'O dia que escolhemos',
+    title: 'O dia do nosso dia',
     description:
-      'Não teve um começo exato — foi acontecendo aos poucos, até virar óbvio. ' +
-      'Então escolhemos o dia 25 de julho pra ser o nosso dia.',
+      '',
     image: require('../assets/photos/25-07-data-escolhida.jpeg'),
   },
   {
     id: 'casa-dela',
     date: '17 de agosto',
     title: 'A primeira vez na sua casa',
-    description: 'A primeira vez que fui até a sua casa.',
+    description: '',
     image: require('../assets/photos/17-08-primeira-vez-casa-dela.jpeg'),
   },
 ];
