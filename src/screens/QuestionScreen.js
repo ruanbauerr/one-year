@@ -14,7 +14,7 @@ import DodgeButton from '../components/DodgeButton';
 export default function QuestionScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.question}>Você sabe que dia é hoje? 🤔</Text>
+      <Text style={styles.question}>Você sabe me ama? 🤔</Text>
 
       {/* Linha com os dois botões: Sim fixo à esquerda, Não fugindo à direita */}
       <View style={styles.buttonsRow}>
