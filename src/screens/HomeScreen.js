@@ -1,13 +1,15 @@
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
 import { colors, typography, spacing } from '../constants/theme';
+import TimelineSection from '../components/TimelineSection';
 
 /**
  * HomeScreen
  * Essa é a ÚNICA tela principal do app (depois da pergunta inicial).
  * Ela vai conter tudo: abertura em texto, linha do tempo, galeria e frases.
- * Por enquanto só tem a seção de abertura — as próximas seções (timeline,
- * galeria, frases) entram aqui embaixo nos próximos commits, cada uma
- * como um bloco/seção dentro do mesmo ScrollView.
+ * Já tem: abertura + linha do tempo (TimelineSection).
+ * Faltam: galeria de fotos e o vídeo surpresa com fundo rosa/corações —
+ * entram aqui embaixo nos próximos commits, cada um como uma seção nova
+ * dentro do mesmo ScrollView.
  */
 export default function HomeScreen() {
   return (
@@ -33,8 +35,10 @@ export default function HomeScreen() {
         </Text>
       </View>
 
+      {/* ---------- Linha do tempo ---------- */}
+      <TimelineSection />
+
       {/* ---------- Próximas seções entram aqui ----------
-          - Linha do tempo (fotos + marcos + frases)
           - Galeria de fotos
           - Vídeo surpresa com fundo rosa e corações
       */}
